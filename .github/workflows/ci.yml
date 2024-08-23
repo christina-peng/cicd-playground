@@ -33,11 +33,3 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew build
-
-  publish:
-    
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Placeholder step
-      run: echo "Publish job running"
